@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Telas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QeS-3I-R5X">
+                                <rect key="frame" x="67" y="30" width="240" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="gyg-8w-tjd"/>
+                                    <constraint firstAttribute="width" constant="240" id="icv-QP-rux"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="olá Eva digite a senha de compra do seu cartão" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5K-TU-C16">
+                                <rect key="frame" x="78" y="168" width="220" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="GJ1-jN-HFX"/>
+                                    <constraint firstAttribute="height" constant="50" id="QKz-ni-bqK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3k-Ia-nhc">
+                                <rect key="frame" x="38" y="233" width="300" height="400"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="sEp-Tw-Bcn">
+                                        <rect key="frame" x="96" y="20" width="108" height="12"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcf-G5-CRe" customClass="CircleView" customModule="Telas" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="12" height="12"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="12" id="g2Y-Om-pr0"/>
+                                                    <constraint firstAttribute="height" constant="12" id="qCX-5k-7hC"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYZ-jH-aHP" customClass="CircleView" customModule="Telas" customModuleProvider="target">
+                                                <rect key="frame" x="32" y="0.0" width="12" height="12"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REq-Cr-m3X" customClass="CircleView" customModule="Telas" customModuleProvider="target">
+                                                <rect key="frame" x="64" y="0.0" width="12" height="12"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ozv-QX-kdj" customClass="CircleView" customModule="Telas" customModuleProvider="target">
+                                                <rect key="frame" x="96" y="0.0" width="12" height="12"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="108" id="O2z-6O-P0a"/>
+                                            <constraint firstAttribute="height" constant="12" id="U7R-AV-Asb"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRN-vG-K4i">
+                                        <rect key="frame" x="0.0" y="40" width="300" height="1"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="jKP-ZM-C3v"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="OOn-de-RyJ">
+                                        <rect key="frame" x="0.0" y="61" width="300" height="105"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="58p-ex-7KU">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Y0-xg-p1D" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="0o2-bJ-gM7"/>
+                                                            <constraint firstAttribute="width" constant="90" id="rxP-Oj-RqX"/>
+                                                        </constraints>
+                                                        <state key="normal" title="1 ou 9">
+                                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z67-Ec-F3T" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                                        <rect key="frame" x="105" y="0.0" width="90" height="45"/>
+                                                        <state key="normal" title="2 ou 8">
+                                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjy-fo-b3o" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                                        <rect key="frame" x="210" y="0.0" width="90" height="45"/>
+                                                        <state key="normal" title="3 ou 7">
+                                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="i9Y-2J-YeQ">
+                                                <rect key="frame" x="0.0" y="60" width="300" height="45"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPp-UD-Je9" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="90" id="MSU-8x-jED"/>
+                                                            <constraint firstAttribute="height" constant="45" id="Usd-cy-lPN"/>
+                                                        </constraints>
+                                                        <state key="normal" title="4 ou 6">
+                                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rg5-pX-ChI" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                                        <rect key="frame" x="105" y="0.0" width="90" height="45"/>
+                                                        <state key="normal" title="5 ou 0">
+                                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FId-k8-vwq" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                                        <rect key="frame" x="210" y="0.0" width="90" height="45"/>
+                                                        <state key="normal" title="Deletar">
+                                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="105" id="0tR-bU-CkI"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wf-gk-MIx" customClass="ButtonView" customModule="Telas" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="180" width="300" height="60"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="IUv-J2-QwE"/>
+                                        </constraints>
+                                        <state key="normal" title="Prosseguir">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="não sou eu, quero sair" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-Hi-lvE">
+                                        <rect key="frame" x="0.0" y="260" width="300" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="jwl-UB-0nf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="62d-JV-fJk">
+                                        <rect key="frame" x="0.0" y="302" width="300" height="90"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ls-wP-cZf">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="Yhf-N4-Mvp"/>
+                                                    <constraint firstAttribute="width" constant="60" id="hnk-ar-rml"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DDo-ev-pUr">
+                                                <rect key="frame" x="60" y="0.0" width="60" height="90"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ye4-t1-Yju">
+                                                <rect key="frame" x="120" y="0.0" width="60" height="90"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHW-a9-Yoq">
+                                                <rect key="frame" x="180" y="0.0" width="60" height="90"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxQ-eK-p5Z">
+                                                <rect key="frame" x="240" y="0.0" width="60" height="90"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9wf-gk-MIx" secondAttribute="trailing" id="5lQ-2T-BYe"/>
+                                    <constraint firstItem="jRN-vG-K4i" firstAttribute="top" secondItem="p3k-Ia-nhc" secondAttribute="top" constant="40" id="7L5-Ft-n8r"/>
+                                    <constraint firstItem="5yL-Hi-lvE" firstAttribute="leading" secondItem="p3k-Ia-nhc" secondAttribute="leading" id="9WX-Il-eDI"/>
+                                    <constraint firstItem="OOn-de-RyJ" firstAttribute="top" secondItem="jRN-vG-K4i" secondAttribute="bottom" constant="20" id="D6q-mt-cV9"/>
+                                    <constraint firstAttribute="bottom" secondItem="62d-JV-fJk" secondAttribute="bottom" constant="8" id="EVe-FF-loF"/>
+                                    <constraint firstItem="62d-JV-fJk" firstAttribute="leading" secondItem="p3k-Ia-nhc" secondAttribute="leading" id="Gie-Bg-nqb"/>
+                                    <constraint firstItem="sEp-Tw-Bcn" firstAttribute="top" secondItem="p3k-Ia-nhc" secondAttribute="top" constant="20" id="JSi-d0-oiu"/>
+                                    <constraint firstItem="9wf-gk-MIx" firstAttribute="top" secondItem="p3k-Ia-nhc" secondAttribute="top" constant="180" id="Jyt-oI-72B"/>
+                                    <constraint firstAttribute="height" constant="400" id="NVJ-PE-GYP"/>
+                                    <constraint firstItem="9wf-gk-MIx" firstAttribute="leading" secondItem="OOn-de-RyJ" secondAttribute="leading" id="QUs-8h-W3r"/>
+                                    <constraint firstItem="5yL-Hi-lvE" firstAttribute="top" secondItem="9wf-gk-MIx" secondAttribute="bottom" constant="20" id="QXV-cQ-1I2"/>
+                                    <constraint firstAttribute="trailing" secondItem="jRN-vG-K4i" secondAttribute="trailing" id="Qrb-1o-iWs"/>
+                                    <constraint firstItem="62d-JV-fJk" firstAttribute="leading" secondItem="5yL-Hi-lvE" secondAttribute="leading" id="Rzc-VM-X1m"/>
+                                    <constraint firstAttribute="width" constant="300" id="TV2-yc-i4H"/>
+                                    <constraint firstAttribute="trailing" secondItem="62d-JV-fJk" secondAttribute="trailing" id="XI7-5V-YCL"/>
+                                    <constraint firstItem="9wf-gk-MIx" firstAttribute="leading" secondItem="p3k-Ia-nhc" secondAttribute="leading" id="oIz-bY-NhX"/>
+                                    <constraint firstItem="sEp-Tw-Bcn" firstAttribute="centerX" secondItem="p3k-Ia-nhc" secondAttribute="centerX" id="r7x-xu-0Di"/>
+                                    <constraint firstAttribute="trailing" secondItem="5yL-Hi-lvE" secondAttribute="trailing" id="tf4-vk-MB6"/>
+                                    <constraint firstItem="jRN-vG-K4i" firstAttribute="leading" secondItem="p3k-Ia-nhc" secondAttribute="leading" id="uwk-3I-tla"/>
+                                    <constraint firstItem="62d-JV-fJk" firstAttribute="centerX" secondItem="p3k-Ia-nhc" secondAttribute="centerX" id="zkY-cg-PIa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QeS-3I-R5X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8jn-MA-Wke"/>
+                            <constraint firstItem="p3k-Ia-nhc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ilg-Sk-W9v"/>
+                            <constraint firstItem="QeS-3I-R5X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="K40-bP-b1D"/>
+                            <constraint firstItem="p3k-Ia-nhc" firstAttribute="top" secondItem="n5K-TU-C16" secondAttribute="bottom" constant="15" id="O6B-sk-1ej"/>
+                            <constraint firstItem="p3k-Ia-nhc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="git-Bv-Rt9"/>
+                            <constraint firstItem="n5K-TU-C16" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qZ9-QW-YLJ"/>
+                            <constraint firstItem="n5K-TU-C16" firstAttribute="top" secondItem="QeS-3I-R5X" secondAttribute="bottom" constant="8" id="sZZ-Hg-zpq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="34.632683658170919"/>
+        </scene>
+    </scenes>
+</document>
